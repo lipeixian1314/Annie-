@@ -92,7 +92,7 @@ export const SentenceCard: React.FC<{ sentences: SentenceAnalysis[] }> = ({ sent
       <div className="bg-amber-100 p-2 rounded-lg text-amber-600">
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
       </div>
-      <h2 className="text-xl font-bold text-slate-800">重点句型深度解析 (Key Syntax - Top 5+)</h2>
+      <h2 className="text-xl font-bold text-slate-800">长难句深度解析 (Key Syntax - Top 5+)</h2>
     </div>
     <div className="space-y-6">
       {sentences.map((sent, idx) => (
@@ -122,7 +122,7 @@ export const VocabularyCard: React.FC<{ vocabulary: VocabularyAnalysis[] }> = ({
       <div className="bg-rose-100 p-2 rounded-lg text-rose-600">
         <BookIcon />
       </div>
-      <h2 className="text-xl font-bold text-slate-800">核心进阶词汇 (Difficulty &gt; A2)</h2>
+      <h2 className="text-xl font-bold text-slate-800">进阶核心词汇 (Advanced Vocabulary &gt; B2)</h2>
     </div>
     <div className="grid grid-cols-1 gap-4">
       {vocabulary.map((vocab, idx) => (

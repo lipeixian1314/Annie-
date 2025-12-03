@@ -52,7 +52,7 @@ const App: React.FC = () => {
             <svg className="w-8 h-8 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
             </svg>
-            <h1 className="text-xl font-bold tracking-tight">中考英语 <span className="text-indigo-400">深度精读助手</span></h1>
+            <h1 className="text-xl font-bold tracking-tight">高考英语 <span className="text-indigo-400">深度精读助手</span></h1>
           </div>
           <div className="text-xs text-slate-400 font-mono hidden sm:block">
             Powered by Gemini 2.5
